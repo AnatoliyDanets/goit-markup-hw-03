@@ -131,8 +131,9 @@ img {
 .hero {
   background-color: var(--bg-additional-color);
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+}
+.hero .container {
+  padding: 200px 252px;
 }
 
 .hero-title {
@@ -185,7 +186,7 @@ img {
   margin-top: -30px;
 }
 .section.title-features {
-  padding-bottom: 47px;
+  padding-bottom: 0;
 }
 .features-item {
   flex-basis: calc((100% - 4 * 30px) / 4);
@@ -221,7 +222,7 @@ img {
   margin-left: 30px;
 }
 .section.title-work {
-  padding-top: 47px;
+  padding-top: 94px;
 }
 
 /* Team */
@@ -300,6 +301,7 @@ img {
 .filter {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .filter-item:not(:last-child) {
   margin-right: 8px;
@@ -316,7 +318,6 @@ img {
   border: none;
   cursor: pointer;
   padding: 6px 22px;
-  margin-bottom: 34px;
 }
 .filter-btn:hover,
 .filter-btn:focus {
